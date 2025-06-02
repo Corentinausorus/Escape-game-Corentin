@@ -6,7 +6,7 @@ import java.awt.event.*;
 
 public class main {
 	public static void main(String[] args) {
-        Dessin d = new Dessin(500,500);
+        Dessin d = new Dessin(1000,1000);
     }
     // miam
 }

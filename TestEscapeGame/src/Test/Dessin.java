@@ -8,10 +8,10 @@ public class Dessin extends JFrame{
 		this.x = x;
 		this.y = y;
 		setSize(x,y);
-		setVisible(true);
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		ZoneDeJeu zone = new ZoneDeJeu();
 		add(zone);
+		setVisible(true);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		zone.requestFocusInWindow();
 	}
 }
